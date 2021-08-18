@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #fff;
+}
+
+thead tr {
+  background-color: #222831;
+  font-size: bold;
+  color: #DDDDDD;
+}
+
+tr {
+  background-color: #DDDDDD;
+  color: #222831;
+  height: calc(100vh / 20);
+}
+
+td,
+th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+.payed {
+  background-color: #30475E;
+  color: #DDDDDD;
+}
