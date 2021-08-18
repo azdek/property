@@ -16,7 +16,7 @@ GRAPH.push(TOTAL - GRAPH.reduce((a, b) => a + b, 0))
 
 
 function App() {
-  const PAYED = Number(window.prompt('Введите сумму'))
+  const PAYED = Number(window.prompt('Введите сумму').replace(/\D/g, ''))
   const table = []
   let totalGraph = 0
 
